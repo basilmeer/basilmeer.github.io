@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Lusitana|Raleway:400,600,800');
+
+body {
+    background: #f4f4f4;
+    font-weight: 100;
+    font-family: 'Lusitana', serif;
+    background-image: url('../images/bg.jpg');
+    background-size: cover;
+}
+
+html, body, .container-table {
+    height: 100%;
+}
+
+.container-table {
+    display: table;
+}
+
+.vertical-center-row {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Raleway', Helvetica Neue, Arial, sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.3em;
+}
+
+button, a.btn {
+    font-family: 'Raleway', Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    letter-spacing: 0.15em;
+}
+
+.fs-sm {
+    font-size: 0.8em;
+}
+
+.btn-rounded {
+    border-radius: 6em;
+    padding: 0.65em 1em;
+}
